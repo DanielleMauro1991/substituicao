@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "email": "luiz@email.com",
+      "password": "123",
+      "nome": "luiz",
+      "id": "1"
+    },
+    {
+      "email": "joao@email.com",
+      "password": "$2a$10$g2cEZzteOe5tMrjhmYW0oeuJQ.kwWbPalwNCIJQEMWoGKkaD1edEO",
+      "nome": "joao",
+      "id": "b7FrVoR"
+    }
+  ],
+  "noticias": [
+    {
+      "id": 1,
+      "imagem": "assets/img/cardnews.jpg",
+      "titulo": "Teste",
+      "descricao": "testando"
+    },
+    {
+      "id": 2,
+      "imagem": "assets/img/cardnews.jpg",
+      "titulo": "Teste Json",
+      "descricao": "testando json"
+    },
+    {
+      "id": 3,
+      "imagem": "assets/img/cardnews.jpg",
+      "titulo": "Teste",
+      "descricao": "testando"
+    },
+    {
+      "id": 4,
+      "imagem": "assets/img/cardnews.jpg",
+      "titulo": "Teste Json",
+      "descricao": "testando json"
+    },
+    {
+      "id": 5,
+      "imagem": "assets/img/cardnews.jpg",
+      "titulo": "Teste",
+      "descricao": "testando"
+    },
+    {
+      "id": 6,
+      "imagem": "assets/img/cardnews.jpg",
+      "titulo": "Teste Json",
+      "descricao": "testando json"
+    }
+  ]
+}
