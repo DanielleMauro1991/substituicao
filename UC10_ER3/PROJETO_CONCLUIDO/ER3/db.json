@@ -11,6 +11,18 @@
       "password": "$2a$10$g2cEZzteOe5tMrjhmYW0oeuJQ.kwWbPalwNCIJQEMWoGKkaD1edEO",
       "nome": "joao",
       "id": "b7FrVoR"
+    },
+    {
+      "email": "danielleo@email.com",
+      "password": "123",
+      "nome": "danielle",
+      "id": "3"
+    },
+    {
+      "email": "julio@email.com",
+      "password": "$2a$10$c.XdUGGtsWi8UdWe4KcId.FE77rMLNBH66.c4zYlzu4E02zrJBOzi",
+      "nome": "julio",
+      "id": "LxgXs9s"
     }
   ],
   "noticias": [
