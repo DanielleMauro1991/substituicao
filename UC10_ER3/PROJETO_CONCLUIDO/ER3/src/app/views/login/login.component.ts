@@ -22,6 +22,10 @@ mensagem = ""
 usuarioLogado = ""
 
 
+}
+
+
+
 /*
 onSubmit() {
   console.log(this.loginModel)
@@ -38,32 +42,32 @@ onSubmit() {
 }
 */
 
-onSubmit() {
-  console.log(this.loginModel)
+// onSubmit() {
+//   console.log(this.loginModel)
 
-  let  erroEncontrado = 0;
+//   let  erroEncontrado = 0;
 
-  const listaPalavras: string[] = ["select", "from", "drop","or ", "having ", "group", "insert", "exec ", "\"", "\'","--", "#", "*",";"]
+//   const listaPalavras: string[] = ["select", "from", "drop","or ", "having ", "group", "insert", "exec ", "\"", "\'","--", "#", "*",";"]
 
-  listaPalavras.forEach(palavra => {
-    console.log("palavra atual: ", palavra)
+//   listaPalavras.forEach(palavra => {
+//     console.log("palavra atual: ", palavra)
 
-    if(this.loginModel.email.toLowerCase().includes(palavra)){
-      console.log("Palavra Encontrada: ",palavra)
-      this.mensagem = "Dados Inválidos: "+ palavra;
+//     if(this.loginModel.email.toLowerCase().includes(palavra)){
+//       console.log("Palavra Encontrada: ",palavra)
+//       this.mensagem = "Dados Inválidos: "+ palavra;
 
-      erroEncontrado = 1;
-    }
-  })
+//       erroEncontrado = 1;
+//     }
+//   })
 
-  if(erroEncontrado == 0){
+//   if(erroEncontrado == 0){
 
-  this.loginService.login(this.loginModel).subscribe((response)=>{
-    //console.log("Sucesso!")
-    this.router.navigateByUrl('')
-  },(respostaErro)=>{
-    this.mensagem = respostaErro.error
-  })
-  }
-  }
-}
+//   this.loginService.login(this.loginModel).subscribe((response)=>{
+//     //console.log("Sucesso!")
+//     this.router.navigateByUrl('')
+//   },(respostaErro)=>{
+//     this.mensagem = respostaErro.error
+//   })
+//   }
+//   }
+// }
